@@ -1,0 +1,16 @@
+{
+  "name": "Slideshow",
+  "description": "Simple file explorer.",
+  "version": "0.0.1",
+  "main": "index.html",
+  "window": {
+    "width": 660,
+    "height": 500
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "dependencies": {
+    "temp": "^0.8.1"
+  }
+}
