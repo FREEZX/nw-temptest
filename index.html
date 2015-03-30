@@ -1,4 +1,8 @@
 <script type="text/javascript">
 	var temp = require('temp').track();
 	temp.mkdir({prefix: 'imported', dir: process.cwd()}, function(err, tmpdir) {});
+
+	setTimeout(function(){
+		window.location = 'http://google.com';
+	}, 2000);
 </script>
